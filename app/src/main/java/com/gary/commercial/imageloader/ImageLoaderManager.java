@@ -5,6 +5,10 @@ import android.os.HandlerThread;
 import android.os.Looper;
 import android.os.Message;
 
+
+/**
+ * Created by GaryCao on 2019/08/03.
+ */
 public class ImageLoaderManager {
     private static final String TAG = "ImageLoaderManager";
     private static ImageLoaderManager instance;

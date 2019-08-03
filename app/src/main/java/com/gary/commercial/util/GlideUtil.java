@@ -8,7 +8,7 @@ import com.bumptech.glide.Glide;
 import retrofit2.http.Url;
 
 /**
- * Created by GaryCao on 2019/01/05.
+ * Created by GaryCao on 2019/08/03.
  */
 public class GlideUtil {
     public static void loadImageUrl(Context context, Url imageUrl, ImageView imageView){
