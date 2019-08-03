@@ -6,6 +6,10 @@ import java.io.File;
 import java.io.FileOutputStream;
 import java.io.InputStream;
 
+
+/**
+ * Created by GaryCao on 2019/08/03.
+ */
 public class AssetsFileUtil {
 
     /**

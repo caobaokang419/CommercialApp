@@ -3,6 +3,9 @@ package com.gary.commercial.util;
 import android.util.Log;
 
 
+/**
+ * Created by GaryCao on 2019/08/03.
+ */
 public class Logger {
     public static final boolean DEBUG = Boolean.parseBoolean("true");
     private static String TAG = "[AmapWeather]";
