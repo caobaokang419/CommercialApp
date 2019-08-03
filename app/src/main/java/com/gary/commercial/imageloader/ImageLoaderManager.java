@@ -1,4 +1,4 @@
-package com.gary.commercial.ImageLoader;
+package com.gary.commercial.imageloader;
 
 import android.os.Handler;
 import android.os.HandlerThread;
