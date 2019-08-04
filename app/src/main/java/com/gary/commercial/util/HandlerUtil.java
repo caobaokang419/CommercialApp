@@ -2,6 +2,7 @@ package com.gary.commercial.util;
 
 import android.os.Handler;
 import android.os.Looper;
+import android.os.MessageQueue;
 
 
 /**
@@ -19,6 +20,28 @@ public class HandlerUtil {
             runnable.run();
         } else {
             uiHandler.post(runnable);
+        }
+    }
+
+    public static void addIdleHandler(MessageQueue.IdleHandler idleHandler) {
+        Looper.myQueue().addIdleHandler(idleHandler);
+    }
+
+    class DemoIdleKeep implements MessageQueue.IdleHandler {
+        /**
+         * @return true: 保持在UIHandler中 false: 执行后被remove掉
+         */
+        @Override
+        public boolean queueIdle() {
+            return true;
+        }
+
+    }
+
+    class DemoIdleOnce implements MessageQueue.IdleHandler {
+        @Override
+        public boolean queueIdle() {
+            return false;
         }
     }
 }
