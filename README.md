@@ -16,6 +16,12 @@ QQ: 302634630
 Mail: caobaokang86@gmail.com 
 csdn: https://cbk419323.blog.csdn.net/
 
+-------
+### Thanks
+- 1. login-basics: https://github.com/andrebts/login-basics: 
+- 2. Banner: https://github.com/youth5201314/banner
+- 3. SmartRefreshLayout: https://github.com/scwang90/SmartRefreshLayout
+- 4. StartupAdPage: https://github.com/logan62334/StartupAdPage
 
 -------
 ### License
