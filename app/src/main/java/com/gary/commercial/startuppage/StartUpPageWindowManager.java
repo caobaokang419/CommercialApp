@@ -1,9 +1,9 @@
-package com.gary.commercial.adv.startuppage;
+package com.gary.commercial.startuppage;
 
 
 import android.content.Context;
 
-import com.gary.commercial.util.Logger;
+import com.gary.commercial.util.CLog;
 
 /**
  * Created by GaryCao on 2019/08/03.
@@ -27,7 +27,7 @@ public class StartUpPageWindowManager {
     }
 
     public void showStartUpPageWindow() {
-        Logger.d(TAG, "showStartUpPageWindow ");
+        CLog.d(TAG, "showStartUpPageWindow ");
         if (startUpPageWindow == null) {
             startUpPageWindow = new StartUpPageWindow(context);
         }
@@ -35,7 +35,7 @@ public class StartUpPageWindowManager {
     }
 
     public void hideStartUpPageWindow() {
-        Logger.d(TAG, "hideStartUpPageWindow ");
+        CLog.d(TAG, "hideStartUpPageWindow ");
         if (startUpPageWindow != null) {
             startUpPageWindow.hideWindow();
         }

@@ -15,9 +15,8 @@ public class ImageLoaderManager {
     private HandlerThread handlerThread;
     private Handler workHandler;
 
-    private static final int EVT_INIT_LOADER_OFFLINE_IMAGE = 1;
+    private static final int EVT_LOADER_OFFLINE_IMAGE = 1;
     private static final int EVT_REQUEST_ONLINE_IMAGE = 2;
-
 
     public static synchronized ImageLoaderManager getInstance() {
         if (instance == null) {
@@ -40,10 +39,11 @@ public class ImageLoaderManager {
         @Override
         public void handleMessage(Message msg) {
             switch (msg.what) {
-                case EVT_INIT_LOADER_OFFLINE_IMAGE:
-                    checkAndLoaderOfflineImages();
+                case EVT_LOADER_OFFLINE_IMAGE:
+                    loaderOfflineImages();
                     break;
                 case EVT_REQUEST_ONLINE_IMAGE:
+                    requestOnlineImages();
                     break;
                 default:
                     break;
@@ -52,11 +52,11 @@ public class ImageLoaderManager {
         }
     }
 
-    private void checkAndLoaderOfflineImages() {
+    private void loaderOfflineImages() {
 
     }
 
-    private void checkAndRequestOnlineImages() {
+    private void requestOnlineImages() {
 
     }
 }

@@ -6,9 +6,9 @@ import android.util.Log;
 /**
  * Created by GaryCao on 2019/08/03.
  */
-public class Logger {
+public class CLog {
     public static final boolean DEBUG = Boolean.parseBoolean("true");
-    private static String TAG = "[AmapWeather]";
+    private static String TAG = "[Gary_Commercial]";
 
     public static void e(String Msg) {
         LogIt(Log.ERROR, TAG, Msg);

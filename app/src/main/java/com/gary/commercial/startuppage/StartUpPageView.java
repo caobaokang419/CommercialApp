@@ -1,17 +1,8 @@
-package com.gary.commercial.adv.startuppage;
+package com.gary.commercial.startuppage;
 
 
 import android.content.Context;
-import android.graphics.PixelFormat;
-import android.view.Gravity;
-import android.view.LayoutInflater;
-import android.view.MotionEvent;
 import android.view.View;
-import android.view.WindowManager;
-import android.widget.LinearLayout;
-
-import com.gary.commercial.R;
-import com.gary.commercial.util.Logger;
 
 /**
  * Created by GaryCao on 2019/08/03.

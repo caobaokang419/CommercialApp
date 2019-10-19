@@ -6,7 +6,6 @@
 - StartUpPager: display full-screen advs when the app is starting.
 - LoginIn: support Login with Facebook, Google Plus (G+) and your own login logic.
 - MobilePay：support alipay,wechat-pay and other mobile pay methods.
-- TODO
 
 
 -------
@@ -18,14 +17,14 @@ csdn: https://cbk419323.blog.csdn.net/
 
 -------
 ### Thanks
-- 1. login-basics: https://github.com/andrebts/login-basics: 
-- 2. Banner: https://github.com/youth5201314/banner
-- 3. SmartRefreshLayout: https://github.com/scwang90/SmartRefreshLayout
-- 4. StartupAdPage: https://github.com/logan62334/StartupAdPage
+- https://github.com/andrebts/login-basics: 
+- https://github.com/youth5201314/banner
+- https://github.com/scwang90/SmartRefreshLayout
+- https://github.com/logan62334/StartupAdPage
 
 -------
 ### License
-Copyright (C) 2015 GaryCao
+Copyright (C) 2019 GaryCao
 Copyright (C) 2013 The Android Open Source Project
 
 Licensed under the Apache License, Version 2.0 (the "License");
