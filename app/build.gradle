@@ -48,4 +48,6 @@ dependencies {
     annotationProcessor ('com.github.bumptech.glide:compiler:4.9.0'){
         exclude group: "com.android.support"
     }
+
+    implementation project(':smart-refresh-layout')
 }
