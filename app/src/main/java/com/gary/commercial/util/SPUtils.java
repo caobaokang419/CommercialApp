@@ -27,27 +27,10 @@ import java.util.Map;
  * Created by lezhou.wyl on 2018/1/12.
  */
 public class SPUtils {
-
     private static final String COMMON_CONFIG = "CommonConfig";
-    public static final String KEY_SOLOPI_PATH_NAME = "KEY_SOLOPI_PATH_NAME";
-    public static final String KEY_OUTPUT_CHARSET = "KEY_OUTPUT_CHARSET";
-    public static final String KEY_ERROR_CHECK_TIME = "KEY_ERROR_CHECK_TIME";
-    public static final String KEY_PERFORMANCE_UPLOAD = "KEY_PERFORMANCE_UPLOAD";
-    public static final String KEY_DISPLAY_SYSTEM_APP = "KEY_DISPLAY_SYSTEM_APP";
-    public static final String KEY_BASE_DIR = "KEY_BASE_DIR";
-    public static final String KEY_CHECK_UPDATE = "KEY_CHECK_UPDATE";
-    public static final String KEY_RECORD_SCREEN_UPLOAD = "KEY_RECORD_SCREEN_UPLOAD";
-    public static final String KEY_PATCH_URL = "KEY_PATCH_URL";
     public static final String KEY_AES_KEY = "KEY_AES_KEY";
-
-    public static final String KEY_SCREENSHOT_RESOLUTION = "KEY_SCREENSHOT_RESOLUTION";
-    public static final String KEY_HIGHLIGHT_REPLAY_NODE = "KEY_HIGHLIGHT_REPLAY_NODE";
-
     public static final String KEY_HIDE_LOG = "KEY_HIDE_LOG";
-
-    public static final String KEY_AUTO_CLEAR_FILES_DAYS = "KEY_AUTO_CLEAR_FILES_DAYS";
-
-    public static final String KEY_INDEX_RECORD = "KEY_INDEX_RECORD";
+    public static final String KEY_BANNER_CONF_VCODE = "KEY_BANNER_CONF_VCODE";
 
     private static SharedPreferences preferences;
 

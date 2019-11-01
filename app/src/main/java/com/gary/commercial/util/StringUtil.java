@@ -488,7 +488,6 @@ public class StringUtil {
         if (SPUtils.getBoolean(SPUtils.KEY_HIDE_LOG, true)) {
             return hash(content);
         }
-
         return toString(content);
     }
 
