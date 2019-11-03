@@ -5,10 +5,10 @@ apply plugin: 'com.android.library'
 
 android {
     compileSdkVersion 28
-    buildToolsVersion '28.0.0'
+    buildToolsVersion '28.0.3'
 
     defaultConfig {
-        minSdkVersion 26
+        minSdkVersion 14
         targetSdkVersion 28
         versionCode 1
         versionName "1.0"
@@ -36,8 +36,9 @@ android {
 }
 
 dependencies {
-    compile fileTree(dir: 'libs', include: ['*.jar'])
-    provided 'com.android.support:support-v4:+'
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    //implementation 'com.android.support:support-v4:+'
+    implementation 'com.android.support:support-v4:28.0.0'
 }
 
 //def siteUrl = 'https://github.com/youth5201314/banner' // 项目的主页

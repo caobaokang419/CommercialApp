@@ -2,6 +2,7 @@ package com.gary.commercial.bean;
 
 /**
  * online json editor:http://www.bejson.com/jsoneditoronline/
+ * online json object:http://www.bejson.com/json2javapojo/new/
  */
 public class BannerConfigBean {
     private String versionCode;
