@@ -18,7 +18,6 @@
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
@@ -30,7 +29,6 @@
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:label="@string/title_activity_start_up"
             android:theme="@style/FullscreenTheme" />
-        <activity android:name=".base.BaseActivity"></activity>
     </application>
 
 </manifest>

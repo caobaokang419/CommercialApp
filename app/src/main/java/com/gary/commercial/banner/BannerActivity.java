@@ -49,7 +49,7 @@ public class BannerActivity extends AppCompatActivity {
         //reference:https://github.com/youth5201314/banner
         banner = (Banner) findViewById(R.id.banner);
         //设置banner样式
-        banner.setBannerStyle(BannerConfig.CIRCLE_INDICATOR_TITLE);
+        banner.setBannerStyle(BannerConfig.CIRCLE_INDICATOR);//CIRCLE_INDICATOR_TITLE);
         //设置图片加载器
         banner.setImageLoader(new GlideImageLoader());
 
