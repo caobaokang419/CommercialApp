@@ -20,6 +20,7 @@ csdn: https://cbk419323.blog.csdn.net/
 - https://github.com/andrebts/login-basics: 
 - https://github.com/youth5201314/banner
 - https://github.com/scwang90/SmartRefreshLayout
+- https://github.com/scwang90/AndFrameWorks
 - https://github.com/logan62334/StartupAdPage
 - https://github.com/Justson/DingDingHelper
 
