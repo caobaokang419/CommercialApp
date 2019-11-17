@@ -24,6 +24,7 @@ csdn: https://cbk419323.blog.csdn.net/
 - https://github.com/logan62334/StartupAdPage
 - https://github.com/Justson/DingDingHelper
 - https://github.com/Blankj/AndroidUtilCode
+- https://github.com/Blankj/AndroidStandardDevelop
 
 -------
 ### License
