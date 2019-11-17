@@ -1,1 +1,1 @@
-include ':app', ':smart-refresh-layout', ':banner'
+include ':app', ':smart-refresh-layout', ':banner', ':utilcode'
